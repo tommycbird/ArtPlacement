@@ -1,0 +1,7 @@
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/CGAL_Qt5_moc_and_resources.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/artplacement.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/ALL_CGAL_TARGETS.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/cgal_check_build_system.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/edit_cache.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/rebuild_cache.dir
+/Users/tommycbird/Desktop/Github/ArtPlacement/build/CMakeFiles/CGAL_Qt5_moc_and_resources_autogen.dir
