@@ -950,7 +950,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsaveoptintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsavesintrin.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xtestintrin.h \
-  /Users/tommycbird/Desktop/Github/ArtPlacement/bops_linear.h \
   ui_ImageInterface.h \
   /Users/tommycbird/Desktop/Github/ArtPlacement/pgn_print.h \
   /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QCoreApplication \
@@ -1348,7 +1347,13 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Constrained_triangulation_2.h \
   /usr/local/include/CGAL/Constrained_triangulation_face_base_2.h \
   /usr/local/include/CGAL/Constrained_triangulation_plus_2.h \
+  /usr/local/include/CGAL/Container_helper.h \
   /usr/local/include/CGAL/Converting_construction.h \
+  /usr/local/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h \
+  /usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h \
+  /usr/local/include/CGAL/Convex_hull_2/ch_graham_andrew_impl.h \
+  /usr/local/include/CGAL/Convex_hull_2/ch_selected_extreme_points_2_impl.h \
+  /usr/local/include/CGAL/Convex_hull_2/convexity_check_2_impl.h \
   /usr/local/include/CGAL/Default.h \
   /usr/local/include/CGAL/Dimension.h \
   /usr/local/include/CGAL/Direction_2.h \
@@ -1391,6 +1396,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Distance_3/Weighted_point_3_Weighted_point_3.h \
   /usr/local/include/CGAL/Distance_3/internal/squared_distance_utils_3.h \
   /usr/local/include/CGAL/Dummy_tds_2.h \
+  /usr/local/include/CGAL/Dynamic_property_map.h \
   /usr/local/include/CGAL/Enum_converter.h \
   /usr/local/include/CGAL/Epic_converter.h \
   /usr/local/include/CGAL/Euclidean_distance.h \
@@ -1494,11 +1500,46 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Homogeneous/predicates_on_pointsH2.h \
   /usr/local/include/CGAL/Homogeneous/predicates_on_pointsH3.h \
   /usr/local/include/CGAL/Homogeneous_converter.h \
+  /usr/local/include/CGAL/IO/3MF.h \
+  /usr/local/include/CGAL/IO/3MF/read_3mf.h \
+  /usr/local/include/CGAL/IO/3MF/write_3mf.h \
   /usr/local/include/CGAL/IO/Arr_iostream.h \
   /usr/local/include/CGAL/IO/Arr_text_formatter.h \
   /usr/local/include/CGAL/IO/Arrangement_2_reader.h \
   /usr/local/include/CGAL/IO/Arrangement_2_writer.h \
   /usr/local/include/CGAL/IO/Color.h \
+  /usr/local/include/CGAL/IO/GOCAD.h \
+  /usr/local/include/CGAL/IO/Generic_writer.h \
+  /usr/local/include/CGAL/IO/OBJ.h \
+  /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h \
+  /usr/local/include/CGAL/IO/OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h \
+  /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h \
+  /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h \
+  /usr/local/include/CGAL/IO/OI.h \
+  /usr/local/include/CGAL/IO/OI/File_writer_inventor.h \
+  /usr/local/include/CGAL/IO/OI/Inventor_ostream.h \
+  /usr/local/include/CGAL/IO/PLY.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_reader.h \
+  /usr/local/include/CGAL/IO/PLY/PLY_writer.h \
+  /usr/local/include/CGAL/IO/STL.h \
+  /usr/local/include/CGAL/IO/STL/STL_reader.h \
+  /usr/local/include/CGAL/IO/Tee_for_output_iterator.h \
+  /usr/local/include/CGAL/IO/VRML.h \
+  /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h \
+  /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h \
+  /usr/local/include/CGAL/IO/VTK.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_reader.h \
+  /usr/local/include/CGAL/IO/VTK/VTK_writer.h \
+  /usr/local/include/CGAL/IO/Verbose_ostream.h \
+  /usr/local/include/CGAL/IO/binary_file_io.h \
+  /usr/local/include/CGAL/IO/helpers.h \
   /usr/local/include/CGAL/IO/io.h \
   /usr/local/include/CGAL/IO/io_tags.h \
   /usr/local/include/CGAL/In_place_list.h \
@@ -1758,6 +1799,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Multiset.h \
   /usr/local/include/CGAL/NT_converter.h \
   /usr/local/include/CGAL/N_step_adaptor_derived.h \
+  /usr/local/include/CGAL/Named_function_parameters.h \
   /usr/local/include/CGAL/Needs_parens_as_product.h \
   /usr/local/include/CGAL/No_intersection_surface_sweep_2.h \
   /usr/local/include/CGAL/Number_types/internal/Exact_type_selector.h \
@@ -1820,7 +1862,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Ray_3.h \
   /usr/local/include/CGAL/Real_embeddable_traits.h \
   /usr/local/include/CGAL/Residue.h \
+  /usr/local/include/CGAL/STL_Extension/internal/Has_features.h \
   /usr/local/include/CGAL/STL_Extension/internal/info_check.h \
+  /usr/local/include/CGAL/STL_Extension/internal/mesh_option_classes.h \
+  /usr/local/include/CGAL/STL_Extension/internal/mesh_parameters_interface.h \
+  /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h \
   /usr/local/include/CGAL/Scalar_factor_traits.h \
   /usr/local/include/CGAL/Search_traits_3.h \
   /usr/local/include/CGAL/Segment_2.h \
@@ -1854,6 +1900,14 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Sqrt_extension/io.h \
   /usr/local/include/CGAL/Sqrt_extension_fwd.h \
   /usr/local/include/CGAL/Static_filtered_predicate.h \
+  /usr/local/include/CGAL/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/IO.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/3MF.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/OFF.h \
+  /usr/local/include/CGAL/Surface_mesh/IO/PLY.h \
+  /usr/local/include/CGAL/Surface_mesh/Properties.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h \
+  /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h \
   /usr/local/include/CGAL/Surface_sweep_2.h \
   /usr/local/include/CGAL/Surface_sweep_2/Arr_basic_insertion_traits_2.h \
   /usr/local/include/CGAL/Surface_sweep_2/Arr_construction_event.h \
@@ -1891,6 +1945,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/Triangulation_2.h \
   /usr/local/include/CGAL/Triangulation_2/insert_constraints.h \
   /usr/local/include/CGAL/Triangulation_2/internal/CTP2_subconstraint_graph.h \
+  /usr/local/include/CGAL/Triangulation_2/internal/In_domain.h \
   /usr/local/include/CGAL/Triangulation_2/internal/Polyline_constraint_hierarchy_2.h \
   /usr/local/include/CGAL/Triangulation_2/internal/Triangulation_line_face_circulator_2.h \
   /usr/local/include/CGAL/Triangulation_data_structure_2.h \
@@ -1922,12 +1977,43 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/auto_link/auto_link.h \
   /usr/local/include/CGAL/basic.h \
   /usr/local/include/CGAL/basic_classes.h \
+  /usr/local/include/CGAL/boost/graph/Euler_operations.h \
+  /usr/local/include/CGAL/boost/graph/IO/3MF.h \
+  /usr/local/include/CGAL/boost/graph/IO/GOCAD.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h \
+  /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h \
+  /usr/local/include/CGAL/boost/graph/IO/INP.h \
+  /usr/local/include/CGAL/boost/graph/IO/OBJ.h \
+  /usr/local/include/CGAL/boost/graph/IO/OFF.h \
+  /usr/local/include/CGAL/boost/graph/IO/PLY.h \
+  /usr/local/include/CGAL/boost/graph/IO/STL.h \
+  /usr/local/include/CGAL/boost/graph/IO/VTK.h \
+  /usr/local/include/CGAL/boost/graph/IO/WRL.h \
+  /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h \
+  /usr/local/include/CGAL/boost/graph/copy_face_graph.h \
+  /usr/local/include/CGAL/boost/graph/generators.h \
+  /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h \
   /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h \
   /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_triangulation_helper.h \
+  /usr/local/include/CGAL/boost/graph/internal/helpers.h \
+  /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h \
+  /usr/local/include/CGAL/boost/graph/io.h \
+  /usr/local/include/CGAL/boost/graph/iterator.h \
+  /usr/local/include/CGAL/boost/graph/named_params_helper.h \
+  /usr/local/include/CGAL/boost/graph/properties.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h \
+  /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h \
   /usr/local/include/CGAL/boost/graph/split_graph_into_polylines.h \
   /usr/local/include/CGAL/boost/iterator/counting_iterator.hpp \
   /usr/local/include/CGAL/boost/iterator/transform_iterator.hpp \
   /usr/local/include/CGAL/boost_mp.h \
+  /usr/local/include/CGAL/ch_akl_toussaint.h \
+  /usr/local/include/CGAL/ch_bykat.h \
+  /usr/local/include/CGAL/ch_graham_andrew.h \
+  /usr/local/include/CGAL/ch_selected_extreme_points_2.h \
   /usr/local/include/CGAL/circulator.h \
   /usr/local/include/CGAL/circulator_bases.h \
   /usr/local/include/CGAL/config.h \
@@ -1935,12 +2021,20 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/constructions/kernel_ftC2.h \
   /usr/local/include/CGAL/constructions/kernel_ftC3.h \
   /usr/local/include/CGAL/convert_to_bfi.h \
+  /usr/local/include/CGAL/convex_hull_2.h \
+  /usr/local/include/CGAL/convex_hull_traits_2.h \
+  /usr/local/include/CGAL/convexity_check_2.h \
   /usr/local/include/CGAL/cpp_float.h \
   /usr/local/include/CGAL/determinant.h \
   /usr/local/include/CGAL/disable_warnings.h \
+  /usr/local/include/CGAL/distance_predicates_2.h \
   /usr/local/include/CGAL/double.h \
+  /usr/local/include/CGAL/draw_constrained_triangulation_2.h \
+  /usr/local/include/CGAL/draw_face_graph.h \
   /usr/local/include/CGAL/draw_polygon_2.h \
   /usr/local/include/CGAL/draw_polygon_with_holes_2.h \
+  /usr/local/include/CGAL/draw_surface_mesh.h \
+  /usr/local/include/CGAL/draw_triangulation_2.h \
   /usr/local/include/CGAL/enable_warnings.h \
   /usr/local/include/CGAL/enum.h \
   /usr/local/include/CGAL/exceptions.h \
@@ -1969,15 +2063,18 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/CGAL/license/AABB_tree.h \
   /usr/local/include/CGAL/license/Arrangement_on_surface_2.h \
   /usr/local/include/CGAL/license/Boolean_set_operations_2.h \
+  /usr/local/include/CGAL/license/Convex_hull_2.h \
   /usr/local/include/CGAL/license/GraphicsView.h \
   /usr/local/include/CGAL/license/Minkowski_sum_2.h \
   /usr/local/include/CGAL/license/Spatial_searching.h \
+  /usr/local/include/CGAL/license/Surface_mesh.h \
   /usr/local/include/CGAL/license/Surface_sweep_2.h \
   /usr/local/include/CGAL/license/TDS_2.h \
   /usr/local/include/CGAL/license/Triangulation_2.h \
   /usr/local/include/CGAL/license/lgpl.h \
   /usr/local/include/CGAL/long_double.h \
   /usr/local/include/CGAL/long_long.h \
+  /usr/local/include/CGAL/mark_domain_in_triangulation.h \
   /usr/local/include/CGAL/memory.h \
   /usr/local/include/CGAL/min_max_n.h \
   /usr/local/include/CGAL/minkowski_sum_2.h \
@@ -2061,6 +2158,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/boost/container/detail/config_begin.hpp \
   /usr/local/include/boost/container/detail/config_end.hpp \
   /usr/local/include/boost/container/detail/construct_in_place.hpp \
+  /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp \
+  /usr/local/include/boost/container/detail/container_rebind.hpp \
   /usr/local/include/boost/container/detail/copy_move_algo.hpp \
   /usr/local/include/boost/container/detail/destroyers.hpp \
   /usr/local/include/boost/container/detail/flat_tree.hpp \
@@ -2082,9 +2181,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
   /usr/local/include/boost/container/detail/variadic_templates_tools.hpp \
   /usr/local/include/boost/container/detail/version_type.hpp \
   /usr/local/include/boost/container/detail/workaround.hpp \
+  /usr/local/include/boost/container/flat_map.hpp \
   /usr/local/include/boost/container/flat_set.hpp \
   /usr/local/include/boost/container/new_allocator.hpp \
   /usr/local/include/boost/container/options.hpp \
+  /usr/local/include/boost/container/small_vector.hpp \
   /usr/local/include/boost/container/throw_exception.hpp \
   /usr/local/include/boost/container/vector.hpp \
   /usr/local/include/boost/container_hash/detail/hash_mix.hpp \
@@ -3760,8 +3861,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/type_traits/remove_pointer.hpp:
 
-/usr/local/include/boost/type_traits/remove_extent.hpp:
-
 /usr/local/include/boost/type_traits/remove_cv_ref.hpp:
 
 /usr/local/include/boost/type_traits/remove_const.hpp:
@@ -3988,8 +4087,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/range/algorithm/equal.hpp:
 
-/usr/local/include/boost/random/variate_generator.hpp:
-
 /usr/local/include/boost/random/uniform_smallint.hpp:
 
 /usr/local/include/boost/random/uniform_real.hpp:
@@ -3997,8 +4094,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/random/uniform_on_sphere.hpp:
 
 /usr/local/include/boost/random/uniform_int.hpp:
-
-/usr/local/include/boost/random/triangle_distribution.hpp:
 
 /usr/local/include/boost/random/shuffle_output.hpp:
 
@@ -4013,8 +4108,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/random/mersenne_twister.hpp:
 
 /usr/local/include/boost/random/linear_feedback_shift.hpp:
-
-/usr/local/include/boost/random/linear_congruential.hpp:
 
 /usr/local/include/boost/random/laplace_distribution.hpp:
 
@@ -4216,23 +4309,19 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/predef/platform/windows_uwp.h:
 
+/usr/local/include/boost/predef/platform/windows_store.h:
+
 /usr/local/include/boost/predef/platform/windows_server.h:
-
-/usr/local/include/boost/any/bad_any_cast.hpp:
-
-/usr/local/include/boost/predef/platform/windows_runtime.h:
 
 /usr/local/include/boost/predef/platform/windows_desktop.h:
 
+/usr/local/include/boost/predef/platform/mingw64.h:
+
 /usr/local/include/boost/predef/platform/mingw32.h:
 
-/usr/local/include/boost/mpl/front_fwd.hpp:
+/usr/local/include/boost/predef/platform/mingw.h:
 
-/usr/local/include/boost/predef/platform/cloudabi.h:
-
-/usr/local/include/boost/fusion/view/transform_view/detail/value_of_data_impl.hpp:
-
-/usr/local/include/boost/predef/platform/android.h:
+/usr/local/include/boost/predef/platform/ios.h:
 
 /usr/local/include/boost/predef/platform.h:
 
@@ -4240,101 +4329,75 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/predef/other/wordsize.h:
 
-/usr/local/include/CGAL/Homogeneous/SphereH3.h:
-
-/usr/local/include/boost/predef/os/vms.h:
-
 /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/local/include/boost/predef/os/os400.h:
 
+/usr/local/include/boost/predef/os/irix.h:
+
+/usr/local/include/boost/predef/os/ios.h:
+
 /usr/local/include/boost/predef/os/hpux.h:
+
+/usr/local/include/boost/predef/os/haiku.h:
 
 /usr/local/include/boost/predef/os/cygwin.h:
 
-/usr/local/include/boost/config/detail/select_compiler_config.hpp:
+/usr/local/include/boost/predef/os/bsd/net.h:
 
-/usr/local/include/boost/predef/os/bsd/bsdi.h:
+/usr/local/include/boost/predef/os/bsd/free.h:
 
-/usr/local/include/boost/math/tools/precision.hpp:
+/usr/local/include/boost/predef/os/bsd.h:
 
-/usr/local/include/boost/predef/os.h:
+/usr/local/include/boost/predef/os/amigaos.h:
+
+/usr/local/include/boost/predef/os/aix.h:
 
 /usr/local/include/boost/predef/library/std/vacpp.h:
 
-/usr/local/include/boost/intrusive/detail/has_member_function_callable_with.hpp:
+/usr/local/include/boost/predef/library/std/stdcpp3.h:
 
-/usr/local/include/boost/predef/library/std/stlport.h:
+/usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
-
-/usr/local/include/boost/predef/library/std/modena.h:
+/usr/local/include/boost/predef/library/std/roguewave.h:
 
 /usr/local/include/boost/predef/library/std/dinkumware.h:
 
 /usr/local/include/boost/predef/library/std/cxx.h:
 
-/usr/local/include/boost/mpl/equal_to.hpp:
-
-/usr/local/include/boost/predef/library/std/_prefix.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/weak_order.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
-
-/usr/local/include/boost/predef/library/std.h:
-
 /usr/local/include/boost/preprocessor/control/if.hpp:
 
 /usr/local/include/boost/predef/library/c/vms.h:
 
+/usr/local/include/boost/predef/library/c/gnu.h:
+
 /usr/local/include/boost/predef/library/c/cloudabi.h:
 
-/usr/local/include/CGAL/Boolean_set_operations_2/Gps_polygon_validation.h:
+/usr/local/include/boost/predef/language/stdc.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qlist.h:
+/usr/local/include/boost/predef/language.h:
 
-/usr/local/include/CGAL/Intersections_3/Bbox_3_Plane_3.h:
-
-/usr/local/include/boost/predef/language/cuda.h:
-
-/usr/local/include/CGAL/Quotient_fwd.h:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/end.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/x86_amd/versions.h:
-
-/usr/local/include/CGAL/Timer_impl.h:
-
-/usr/local/include/boost/multiprecision/cpp_int/intel_intrinsics.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/x86_amd.h:
-
-/usr/local/include/boost/mpl/reverse_iter_fold.hpp:
-
-/usr/local/include/boost/predef/hardware/simd/x86.h:
+/usr/local/include/boost/predef/hardware/simd/x86/versions.h:
 
 /usr/local/include/boost/predef/hardware/simd/ppc/versions.h:
 
 /usr/local/include/boost/predef/hardware/simd/ppc.h:
 
+/usr/local/include/boost/predef/hardware/simd/arm/versions.h:
+
+/usr/local/include/boost/predef/hardware/simd/arm.h:
+
 /usr/local/include/boost/predef/hardware.h:
+
+/usr/local/include/boost/predef/detail/test.h:
+
+/usr/local/include/boost/predef/detail/os_detected.h:
 
 /usr/local/include/boost/predef/detail/comp_detected.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:
+/usr/local/include/boost/predef/compiler/watcom.h:
 
-/usr/local/include/boost/math/tools/assert.hpp:
-
-/usr/local/include/boost/predef/detail/_exception.h:
-
-/usr/local/include/boost/move/detail/iterator_to_raw_pointer.hpp:
-
-/usr/local/include/boost/predef/detail/_cassert.h:
-
-/usr/local/include/boost/mpl/vector/aux_/front.hpp:
-
-/usr/local/include/boost/predef/compiler/visualc.h:
+/usr/local/include/boost/predef/compiler/tendra.h:
 
 /usr/local/include/boost/predef/compiler/sunpro.h:
 
@@ -4344,29 +4407,23 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/predef/compiler/sgi_mipspro.h:
 
+/usr/local/include/boost/predef/compiler/pgi.h:
+
+/usr/local/include/boost/random/detail/mixmax_skip_N17.ipp:
+
+/usr/local/include/boost/predef/compiler/nvcc.h:
+
 /usr/local/include/boost/predef/compiler/mpw.h:
 
 /usr/local/include/boost/predef/compiler/metrowerks.h:
 
-/usr/local/include/CGAL/minkowski_sum_2.h:
+/usr/local/include/boost/predef/compiler/iar.h:
 
-/usr/local/include/boost/predef/compiler/metaware.h:
+/usr/local/include/boost/predef/compiler/hp_acc.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
+/usr/local/include/boost/preprocessor/iteration/iterate.hpp:
 
-/usr/local/include/CGAL/predicates_on_points_2.h:
-
-/usr/local/include/CGAL/Surface_sweep_2/Arr_basic_insertion_traits_2.h:
-
-/usr/local/include/boost/predef/compiler/ibm.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
-
-/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qatomic_cxx11.h:
-
-/usr/local/include/boost/multiprecision/detail/functions/trig.hpp:
-
-/usr/local/include/boost/predef/compiler/greenhills.h:
+/usr/local/include/boost/predef/compiler/gcc.h:
 
 /usr/local/include/boost/predef/compiler/ekopath.h:
 
@@ -4379,12 +4436,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/predef/compiler/borland.h:
 
 /usr/local/include/boost/predef/compiler.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
-
-/usr/local/include/boost/mpl/set/aux_/insert_impl.hpp:
-
-/usr/local/include/boost/predef/architecture/x86/64.h:
 
 /usr/local/include/boost/predef/architecture/x86/32.h:
 
@@ -4412,6 +4463,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/pending/detail/property.hpp:
 
+/usr/local/include/CGAL/IO/Verbose_ostream.h:
+
 /usr/local/include/boost/optional/optional_fwd.hpp:
 
 /usr/local/include/boost/optional/optional.hpp:
@@ -4438,12 +4491,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
-/usr/local/include/boost/variant.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
-
-/usr/local/include/boost/predef/compiler/palm.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
 /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
@@ -4457,6 +4504,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
 
 /usr/local/include/boost/numeric/conversion/detail/converter.hpp:
+
+/usr/local/include/CGAL/STL_Extension/internal/mesh_option_classes.h:
 
 /usr/local/include/boost/numeric/conversion/converter_policies.hpp:
 
@@ -4477,8 +4526,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Triangulation_2/insert_constraints.h:
 
 /usr/local/include/boost/multiprecision/traits/transcendental_reduction_type.hpp:
-
-/usr/local/include/boost/multiprecision/traits/is_variable_precision.hpp:
 
 /usr/local/include/boost/multiprecision/traits/is_complex.hpp:
 
@@ -4530,11 +4577,15 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/multiprecision/cpp_int/limits.hpp:
 
+/usr/local/include/boost/predef/hardware/simd/x86_amd.h:
+
+/usr/local/include/CGAL/Timer_impl.h:
+
+/usr/local/include/boost/multiprecision/cpp_int/intel_intrinsics.hpp:
+
 /usr/local/include/boost/math/tools/toms748_solve.hpp:
 
 /usr/local/include/boost/multiprecision/cpp_int/cpp_int_config.hpp:
-
-/usr/local/include/boost/multiprecision/cpp_int/comparison.hpp:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qbytearray.h:
 
@@ -4592,8 +4643,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/multi_index/detail/is_transparent.hpp:
 
-/usr/local/include/boost/multi_index/detail/is_index_list.hpp:
-
 /usr/local/include/boost/multi_index/detail/invalidate_iterators.hpp:
 
 /usr/local/include/boost/multi_index/detail/index_base.hpp:
@@ -4628,8 +4677,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/multi_index/detail/allocator_traits.hpp:
 
-/usr/local/include/boost/multi_index/detail/access_specifier.hpp:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtOpenGL/qtopenglglobal.h:
 
 /usr/local/include/boost/mpl/void_fwd.hpp:
@@ -4650,9 +4697,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/vector/aux_/iterator.hpp:
 
-/usr/local/include/boost/mpl/times.hpp:
+/usr/local/include/boost/predef/compiler/visualc.h:
 
-/usr/local/include/boost/mpl/transform.hpp:
+/usr/local/include/boost/mpl/vector/aux_/front.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_function.h:
 
@@ -4664,9 +4711,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/set/aux_/tag.hpp:
 
-/usr/local/include/CGAL/draw_polygon_2.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
-/usr/local/include/boost/mpl/set/aux_/item.hpp:
+/usr/local/include/boost/predef/architecture/x86/64.h:
+
+/usr/local/include/boost/mpl/set/aux_/insert_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
@@ -4680,19 +4729,15 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/sequence_tag_fwd.hpp:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qabstractbutton.h:
-
-/usr/local/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
-
-/usr/local/include/boost/predef/os/qnxnto.h:
-
 /usr/local/include/boost/mpl/same_as.hpp:
+
+/usr/local/include/boost/predef/hardware/simd/x86.h:
+
+/usr/local/include/boost/mpl/reverse_iter_fold.hpp:
 
 /usr/local/include/boost/mpl/reverse_fold.hpp:
 
 /usr/local/include/boost/mpl/remove_if.hpp:
-
-/usr/local/include/boost/predef/os/aix.h:
 
 /usr/local/include/boost/mpl/remove.hpp:
 
@@ -4816,6 +4861,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/has_key_fwd.hpp:
 
+/usr/local/include/boost/predef/platform/cloudabi.h:
+
+/usr/local/include/boost/mpl/front_fwd.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/mach/machine/_structs.h:
 
 /usr/local/include/boost/mpl/fold.hpp:
@@ -4856,8 +4905,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
-/usr/local/include/boost/mpl/aux_/static_cast.hpp:
-
 /usr/local/include/boost/mpl/aux_/push_front_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/make_tuple_types.h:
@@ -4879,6 +4926,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/fusion/support/tag_of_fwd.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp:
+
+/usr/local/include/boost/predef/os/qnxnto.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qabstractbutton.h:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
 
 /usr/local/include/boost/mpl/aux_/preprocessed/gcc/inherit.hpp:
 
@@ -4942,9 +4995,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
 
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_do_intersect.h:
-
 /usr/local/include/boost/predef/hardware/simd.h:
+
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Plane_3_do_intersect.h:
 
 /usr/local/include/boost/mpl/set/aux_/clear_impl.hpp:
 
@@ -5018,12 +5071,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/aux_/common_name_wknd.hpp:
 
-/usr/local/include/boost/multi_index/ordered_index_fwd.hpp:
-
-/usr/local/include/boost/mpl/list/list0.hpp:
-
-/usr/local/include/boost/mpl/aux_/clear_impl.hpp:
-
 /usr/local/include/boost/mpl/void.hpp:
 
 /usr/local/include/boost/mpl/aux_/back_impl.hpp:
@@ -5046,12 +5093,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/assert.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
-
-/usr/local/include/boost/iterator/distance.hpp:
-
-/usr/local/include/boost/predef/compiler/intel.h:
-
 /usr/local/include/boost/container/detail/is_contiguous_container.hpp:
 
 /usr/local/include/CGAL/Iterator_project.h:
@@ -5064,9 +5105,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/always.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h:
-
 /usr/local/include/boost/predef/os/beos.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/literals.h:
 
 /usr/local/include/boost/mpl/advance.hpp:
 
@@ -5077,6 +5118,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Intersections_3/internal/Ray_3_Ray_3_intersection.h:
 
 /usr/local/include/boost/mp11/version.hpp:
+
+/usr/local/include/CGAL/draw_triangulation_2.h:
 
 /usr/local/include/boost/move/utility.hpp:
 
@@ -5150,6 +5193,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/move/detail/meta_utils.hpp:
 
+/usr/local/include/boost/predef/detail/_cassert.h:
+
+/usr/local/include/boost/move/detail/iterator_to_raw_pointer.hpp:
+
 /usr/local/include/boost/move/detail/fwd_macros.hpp:
 
 /usr/local/include/boost/move/detail/destruct_n.hpp:
@@ -5190,7 +5237,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/math/tools/real_cast.hpp:
 
-/usr/local/include/boost/predef/platform/mingw64.h:
+/usr/local/include/boost/mpl/transform.hpp:
+
+/usr/local/include/boost/mpl/times.hpp:
 
 /usr/local/include/boost/fusion/mpl/back.hpp:
 
@@ -5224,15 +5273,19 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/math/tools/atomic.hpp:
 
+/usr/local/include/boost/predef/detail/_exception.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/immintrin.h:
+
+/usr/local/include/boost/math/tools/assert.hpp:
+
 /usr/local/include/boost/type_traits/is_polymorphic.hpp:
 
 /usr/local/include/boost/math/special_functions/sin_pi.hpp:
 
-/usr/local/include/boost/fusion/algorithm/query/detail/find_if.hpp:
-
-/usr/local/include/boost/predef/library/c/zos.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/transform.h:
+
+/usr/local/include/CGAL/IO/VTK.h:
 
 /usr/local/include/boost/mpl/pop_back_fwd.hpp:
 
@@ -5334,8 +5387,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/iterator/interoperable.hpp:
 
-/usr/local/include/boost/iterator/detail/facade_iterator_category.hpp:
-
 /usr/local/include/boost/iterator/detail/enable_if.hpp:
 
 /usr/local/include/boost/iterator/detail/config_def.hpp:
@@ -5397,6 +5448,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/mp11/bind.hpp:
 
 /usr/local/include/boost/intrusive/detail/hook_traits.hpp:
+
+/usr/local/include/boost/predef/library/std/stlport.h:
+
+/usr/local/include/boost/intrusive/detail/has_member_function_callable_with.hpp:
 
 /usr/local/include/boost/intrusive/detail/function_detector.hpp:
 
@@ -5464,8 +5519,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/view/transform_view/detail/distance_impl.hpp:
 
-/usr/local/include/boost/predef/language.h:
-
 /usr/local/include/boost/preprocessor/config/limits.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/deref_data_impl.hpp:
@@ -5523,6 +5576,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/fusion/view/joint_view/detail/end_impl.hpp:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/deref_data_impl.hpp:
+
+/usr/local/include/CGAL/IO/STL/STL_reader.h:
 
 /usr/local/include/boost/fusion/view/joint_view/detail/begin_impl.hpp:
 
@@ -5594,6 +5649,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/support/detail/is_native_fusion_sequence.hpp:
 
+/usr/local/include/CGAL/IO/3MF/read_3mf.h:
+
 /usr/local/include/boost/fusion/support/detail/is_mpl_sequence.hpp:
 
 /usr/local/include/boost/multiprecision/detail/et_ops.hpp:
@@ -5604,10 +5661,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/support/detail/as_fusion_element.hpp:
 
-/usr/local/include/boost/mpl/empty_base.hpp:
-
-/usr/local/include/boost/fusion/support/detail/and.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/math.h:
 
 /usr/local/include/boost/fusion/support/detail/access.hpp:
@@ -5616,27 +5669,23 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/sequence/intrinsic/value_at.hpp:
 
+/usr/local/include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/usr/local/include/CGAL/Quotient_fwd.h:
+
+/usr/local/include/boost/fusion/sequence/intrinsic/end.hpp:
+
 /usr/local/include/boost/fusion/container/vector/detail/config.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/empty.hpp:
-
-/usr/local/include/boost/predef/os/bsd.h:
-
-/usr/local/include/boost/random/detail/const_mod.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_size.hpp:
-
-/usr/local/include/boost/concept/detail/backward_compatibility.hpp:
-
-/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_end_impl.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_end.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_begin.hpp:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/begin.hpp:
+
+/usr/local/include/CGAL/STL_Extension/internal/mesh_parameters_interface.h:
 
 /usr/local/include/boost/mpl/aux_/traits_lambda_spec.hpp:
 
@@ -5651,8 +5700,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/fusion/sequence/comparison/enable_comparison.hpp:
 
 /usr/local/include/boost/fusion/sequence/comparison/detail/equal_to.hpp:
-
-/usr/local/include/boost/fusion/mpl/push_front.hpp:
 
 /usr/local/include/boost/fusion/mpl/pop_back.hpp:
 
@@ -5670,10 +5717,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/mpl/detail/clear.hpp:
 
-/usr/local/include/CGAL/Intersections_2/Bbox_2_Line_2.h:
-
-/usr/local/include/boost/predef/library.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/identity.h:
 
 /usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:
@@ -5690,8 +5733,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/iterator/next.hpp:
 
-/usr/local/include/boost/predef/os/bsd/net.h:
-
 /usr/local/include/boost/fusion/iterator/mpl/fusion_iterator.hpp:
 
 /usr/local/include/boost/fusion/iterator/iterator_facade.hpp:
@@ -5701,6 +5742,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/fusion/iterator/iterator_adapter.hpp:
 
 /usr/local/include/boost/fusion/iterator/detail/distance.hpp:
+
+/usr/local/include/CGAL/license/Convex_hull_2.h:
 
 /usr/local/include/boost/fusion/iterator/detail/advance.hpp:
 
@@ -5874,6 +5917,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/predef/architecture/superh.h:
 
+/usr/local/include/CGAL/boost/graph/generators.h:
+
 /usr/local/include/boost/detail/templated_streams.hpp:
 
 /usr/local/include/CGAL/Intersections_2/Circle_2_Line_2.h:
@@ -5954,9 +5999,15 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/container/throw_exception.hpp:
 
+/usr/local/include/boost/container/small_vector.hpp:
+
 /usr/local/include/boost/move/detail/config_begin.hpp:
 
 /usr/local/include/boost/container/options.hpp:
+
+/usr/local/include/CGAL/Cartesian/Translation_rep_3.h:
+
+/usr/local/include/boost/container/flat_map.hpp:
 
 /usr/local/include/boost/range/size.hpp:
 
@@ -6000,6 +6051,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/container/detail/flat_tree.hpp:
 
+/usr/local/include/boost/multi_index/detail/is_index_list.hpp:
+
+/usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp:
+
 /usr/local/include/boost/container/detail/allocation_type.hpp:
 
 /usr/local/include/boost/container/detail/algorithm.hpp:
@@ -6021,6 +6076,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/config/workaround.hpp:
 
 /usr/local/include/boost/multi_index/detail/hash_index_node.hpp:
+
+/usr/local/include/CGAL/boost/graph/io.h:
 
 /usr/local/include/boost/intrusive/detail/algorithm.hpp:
 
@@ -6074,6 +6131,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/concept/detail/general.hpp:
 
+/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_end_impl.hpp:
+
+/usr/local/include/boost/concept/detail/backward_compatibility.hpp:
+
 /usr/local/include/boost/integer/common_factor_rt.hpp:
 
 /usr/local/include/boost/mpl/set/aux_/key_type_impl.hpp:
@@ -6123,6 +6184,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/mpl/aux_/arg_typedef.hpp:
 
 /usr/local/include/CGAL/utils.h:
+
+/usr/local/include/boost/predef/compiler/intel.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/apply_cv.h:
+
+/usr/local/include/boost/iterator/distance.hpp:
 
 /usr/local/include/boost/mpl/find_if.hpp:
 
@@ -6186,6 +6253,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/mpl/insert_range.hpp:
 
+/usr/local/include/CGAL/mark_domain_in_triangulation.h:
+
 /usr/local/include/CGAL/long_long.h:
 
 /usr/local/include/CGAL/long_double.h:
@@ -6216,10 +6285,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/license/AABB_tree.h:
 
-/usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h:
-
-/usr/local/include/CGAL/kernel_config.h:
-
 /usr/local/include/CGAL/kernel_basic.h:
 
 /usr/local/include/boost/smart_ptr/bad_weak_ptr.hpp:
@@ -6243,8 +6308,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/machine/signal.h:
 
 /usr/local/include/CGAL/ipower.h:
-
-/usr/local/include/boost/container/vector.hpp:
 
 /usr/local/include/boost/fusion/adapted/boost_tuple/detail/begin_impl.hpp:
 
@@ -6272,6 +6335,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/enable_warnings.h:
 
+/usr/local/include/CGAL/boost/graph/Euler_operations.h:
+
+/usr/local/include/boost/container/vector.hpp:
+
 /usr/local/include/boost/fusion/adapted/mpl/detail/category_of_impl.hpp:
 
 /usr/local/include/boost/fusion/container/vector/vector10.hpp:
@@ -6279,6 +6346,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /usr/local/include/CGAL/draw_polygon_with_holes_2.h:
+
+/usr/local/include/boost/mpl/set/aux_/item.hpp:
+
+/usr/local/include/CGAL/draw_polygon_2.h:
+
+/usr/local/include/CGAL/draw_constrained_triangulation_2.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/QOpenGLFunctions:
 
@@ -6290,9 +6363,23 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/double.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree:
+/usr/local/include/boost/iterator/detail/facade_iterator_category.hpp:
 
-/usr/local/include/CGAL/disable_warnings.h:
+/usr/local/include/CGAL/distance_predicates_2.h:
+
+/usr/local/include/CGAL/Hilbert_sort_3.h:
+
+/usr/local/include/CGAL/convex_hull_traits_2.h:
+
+/usr/local/include/boost/random/detail/const_mod.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/remove_extent.h:
+
+/usr/local/include/boost/fusion/sequence/intrinsic/detail/segmented_size.hpp:
+
+/usr/local/include/boost/random/triangle_distribution.hpp:
+
+/usr/local/include/CGAL/convex_hull_2.h:
 
 /usr/local/include/CGAL/constructions/kernel_ftC2.h:
 
@@ -6310,6 +6397,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/circulator.h:
 
+/usr/local/include/CGAL/ch_selected_extreme_points_2.h:
+
+/usr/local/include/boost/predef/os/bsd/dragonfly.h:
+
+/usr/local/include/CGAL/ch_graham_andrew.h:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qobjectdefs_impl.h:
 
 /usr/local/include/CGAL/Boolean_set_operations_2/Gps_simplifier_traits.h:
@@ -6317,6 +6410,62 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/boost/iterator/transform_iterator.hpp:
 
 /usr/local/include/CGAL/boost/graph/split_graph_into_polylines.h:
+
+/usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h:
+
+/usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h:
+
+/usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h:
+
+/usr/local/include/CGAL/boost/graph/properties.h:
+
+/usr/local/include/boost/multi_index/detail/access_specifier.hpp:
+
+/usr/local/include/CGAL/boost/graph/iterator.h:
+
+/usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h:
+
+/usr/local/include/boost/mpl/empty_base.hpp:
+
+/usr/local/include/boost/fusion/support/detail/and.hpp:
+
+/usr/local/include/CGAL/boost/graph/helpers.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
+
+/usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h:
+
+/usr/local/include/CGAL/boost/graph/IO/WRL.h:
+
+/usr/local/include/CGAL/boost/graph/IO/STL.h:
+
+/usr/local/include/CGAL/Intersections_2/Circle_2_Iso_rectangle_2.h:
+
+/usr/local/include/CGAL/boost/graph/IO/PLY.h:
+
+/usr/local/include/CGAL/boost/graph/IO/OBJ.h:
+
+/usr/local/include/CGAL/Kernel_23/internal/Projection_traits_base_3.h:
+
+/usr/local/include/CGAL/kernel_config.h:
+
+/usr/local/include/CGAL/boost/graph/IO/INP.h:
+
+/usr/local/include/boost/multi_index/ordered_index_fwd.hpp:
+
+/usr/local/include/boost/mpl/list/list0.hpp:
+
+/usr/local/include/boost/mpl/aux_/clear_impl.hpp:
+
+/usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h:
+
+/usr/local/include/CGAL/FPU.h:
+
+/usr/local/include/CGAL/boost/graph/IO/GOCAD.h:
+
+/usr/local/include/CGAL/boost/graph/IO/3MF.h:
 
 /usr/local/include/CGAL/basic_classes.h:
 
@@ -6339,6 +6488,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/array.h:
 
 /usr/local/include/CGAL/Time_stamper.h:
+
+/usr/local/include/CGAL/IO/VTK/VTK_reader.h:
 
 /usr/local/include/boost/move/algo/unique.hpp:
 
@@ -6402,8 +6553,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/container/detail/is_pair.hpp:
 
-/usr/local/include/boost/predef/compiler/watcom.h:
-
 /usr/local/include/boost/fusion/adapted/mpl/detail/empty_impl.hpp:
 
 /usr/local/include/CGAL/Surface_sweep_2/Default_visitor_base.h:
@@ -6462,11 +6611,23 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/export/CGAL.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_do_intersect.h:
+
+/usr/local/include/CGAL/Surface_mesh/IO/PLY.h:
+
+/usr/local/include/CGAL/Surface_mesh/IO/OFF.h:
+
+/usr/local/include/CGAL/Surface_mesh/IO.h:
+
+/usr/local/include/CGAL/Surface_mesh.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512vlbitalgintrin.h:
 
 /usr/local/include/CGAL/Static_filtered_predicate.h:
 
 /usr/local/include/boost/multi_index/detail/index_matcher.hpp:
+
+/usr/local/include/CGAL/Surface_mesh/Properties.h:
 
 /usr/local/include/CGAL/Sqrt_extension/Wang_traits.h:
 
@@ -6491,6 +6652,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Sqrt_extension/Chinese_remainder_traits.h:
 
 /usr/local/include/CGAL/Sqrt_extension/Algebraic_structure_traits.h:
+
+/usr/local/include/CGAL/boost/graph/internal/helpers.h:
 
 /usr/local/include/CGAL/Sqrt_extension.h:
 
@@ -6523,6 +6686,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Segment_2.h:
 
 /usr/local/include/CGAL/Search_traits_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/enable_view.h:
+
+/usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h:
+
+/usr/local/include/CGAL/STL_Extension/internal/Has_features.h:
 
 /usr/local/include/boost/mpl/empty.hpp:
 
@@ -6562,10 +6731,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Qt/viewer_actions.h:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/smmintrin.h:
-
-/usr/local/include/CGAL/Qt/quaternion.h:
-
 /usr/local/include/boost/mpl/aux_/find_if_pred.hpp:
 
 /usr/local/include/CGAL/Qt/manipulatedFrame_impl.h:
@@ -6602,9 +6767,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Qt/CreateOpenGLContext.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qwidget.h:
-
 /usr/local/include/boost/predef/make.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qwidget.h:
 
 /usr/local/include/CGAL/Qt/Basic_viewer_qt.h:
 
@@ -6626,7 +6791,13 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/iterator/distance.hpp:
 
+/usr/local/include/boost/type_traits/remove_extent.hpp:
+
+/usr/local/include/CGAL/ch_akl_toussaint.h:
+
 /usr/local/include/CGAL/Polygon_set_2.h:
+
+/usr/local/include/CGAL/draw_surface_mesh.h:
 
 /usr/local/include/boost/predef/architecture/sys370.h:
 
@@ -6658,9 +6829,13 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Needs_parens_as_product.h:
 
+/usr/local/include/CGAL/Named_function_parameters.h:
+
 /usr/local/include/boost/type_traits/has_left_shift.hpp:
 
 /usr/local/include/boost/move/core.hpp:
+
+/usr/local/include/CGAL/boost/graph/named_params_helper.h:
 
 /usr/local/include/CGAL/N_step_adaptor_derived.h:
 
@@ -6670,9 +6845,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/NT_converter.h:
 
-/usr/local/include/boost/intrusive/detail/generic_hook.hpp:
-
 /usr/local/include/boost/predef/other/endian.h:
+
+/usr/local/include/boost/intrusive/detail/generic_hook.hpp:
 
 /usr/local/include/CGAL/Multiset.h:
 
@@ -6756,10 +6931,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Kernel/mpl.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-/usr/local/include/boost/predef/compiler/microtec.h:
-
 /usr/local/include/boost/range/detail/implementation_help.hpp:
 
 /usr/local/include/boost/mpl/protect.hpp:
@@ -6802,11 +6973,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/tetrahedron_lines_intersections_3.h:
 
+/usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Triangle_3_Triangle_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Tetrahedron_3_Unbounded_3_do_intersect.h:
-
-/usr/local/include/boost/predef/os/bsd/free.h:
 
 /usr/local/include/boost/fusion/view/joint_view/joint_view.hpp:
 
@@ -6824,17 +6995,19 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/Tetrahedron_3_Bounded_3_do_intersect.h:
 
+/usr/local/include/CGAL/boost/graph/IO/OFF.h:
+
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Tetrahedron_3_do_intersect.h:
 
-/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
-
-/usr/local/include/boost/predef/compiler/kai.h:
-
-/usr/local/include/CGAL/Triangulation_ds_circulators_2.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Sphere_3_intersection.h:
-
 /usr/local/include/CGAL/Surface_sweep_2/Event_comparer.h:
+
+/usr/local/include/boost/predef/compiler/ibm.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h:
+
+/usr/local/include/CGAL/predicates_on_points_2.h:
+
+/usr/local/include/CGAL/Surface_sweep_2/Arr_basic_insertion_traits_2.h:
 
 /usr/local/include/boost/preprocessor/logical/bitor.hpp:
 
@@ -6874,15 +7047,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Sphere_3_intersection.h:
 
-/usr/local/include/CGAL/Intersections_3/internal/Point_3_Segment_3_intersection.h:
-
 /usr/local/include/CGAL/boost_mp.h:
 
 /usr/local/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_intersection.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Point_3_Ray_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/min.h:
 
@@ -6906,10 +7075,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Sphere_3_do_intersect.h:
 
-/usr/local/include/boost/random/detail/mixmax_skip_N17.ipp:
-
-/usr/local/include/boost/predef/compiler/nvcc.h:
-
 /usr/local/include/CGAL/GMP/Gmpfr_type.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Segment_3_intersection.h:
@@ -6923,12 +7088,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/license/lgpl.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Plane_3_Ray_3_do_intersect.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
-
-/usr/local/include/CGAL/Kernel_traits.h:
-
-/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Point_3_intersection.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QVector:
 
@@ -7018,6 +7177,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Iso_cuboid_3_do_intersect.h:
 
+/usr/local/include/CGAL/boost/graph/copy_face_graph.h:
+
 /usr/local/include/boost/container/detail/min_max.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Tetrahedron_3_do_intersect.h:
@@ -7030,73 +7191,59 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Line_3_do_intersect.h:
 
-/usr/local/include/boost/integer/integer_log2.hpp:
-
-/usr/local/include/boost/limits.hpp:
-
-/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
-
-/usr/local/include/boost/graph/properties.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
-
-/usr/local/include/CGAL/Intersections_3/Tetrahedron_3_Triangle_3.h:
-
 /usr/local/include/CGAL/Intersections_3/Tetrahedron_3_Tetrahedron_3.h:
 
-/usr/local/include/CGAL/basic.h:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__wmmintrin_aes.h:
 
-/usr/local/include/boost/mpl/aux_/largest_int.hpp:
+/usr/local/include/CGAL/Intersections_3/Sphere_3_Triangle_3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
+/usr/local/include/boost/move/detail/iterator_traits.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__node_handle:
+/usr/local/include/CGAL/Cartesian/solve_3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/projected.h:
+/usr/local/include/CGAL/Intersections_3/Sphere_3_Tetrahedron_3.h:
 
-/usr/local/include/CGAL/Intersections_3/Line_3_Sphere_3.h:
+/usr/local/include/CGAL/Intersections_3/Sphere_3_Sphere_3.h:
 
-/usr/local/include/CGAL/Intersections_3/Segment_3_Triangle_3.h:
+/usr/local/include/boost/random/fisher_f_distribution.hpp:
+
+/usr/local/include/boost/mpl/aux_/pop_back_impl.hpp:
+
+/usr/local/include/CGAL/Polygon_2/Polygon_2_algorithms_impl.h:
+
+/usr/local/include/CGAL/Intersections_3/Segment_3_Tetrahedron_3.h:
+
+/usr/local/include/CGAL/Intersections_3/Ray_3_Triangle_3.h:
 
 /usr/local/include/CGAL/Arr_accessor.h:
 
 /usr/local/include/CGAL/Intersections_3/Ray_3_Tetrahedron_3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/exchange.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string.h:
-
-/usr/local/include/CGAL/Intersections_3/Ray_3_Sphere_3.h:
-
-/usr/local/include/boost/multi_index/detail/safe_mode.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uuid_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/types.h:
-
-/usr/local/include/CGAL/Intersections_3/Ray_3_Ray_3.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ucontext.h:
 
 /usr/local/include/CGAL/Intersections_3/Point_3_Tetrahedron_3.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/tuple_like_ext.h:
 
-/usr/local/include/boost/mpl/not.hpp:
+/usr/local/include/CGAL/Intersections_3/Point_3_Point_3.h:
 
-/usr/local/include/CGAL/Intersections_3/Point_3_Sphere_3.h:
+/usr/local/include/CGAL/Intersections_3/Plane_3_Triangle_3.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qcompilerdetection.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Tetrahedron_3.h:
+/usr/local/include/CGAL/Intersections_3/Plane_3_Sphere_3.h:
 
 /usr/local/include/CGAL/Intersections_3/Plane_3_Ray_3.h:
 
-/usr/local/include/boost/multiprecision/cpp_int/bitwise.hpp:
+/usr/local/include/boost/mp11/integral.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mm_malloc.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/strong_order.h:
 
-/usr/local/include/CGAL/Intersections_3/Plane_3_Point_3.h:
+/usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3_Plane_3.h:
+
+/usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3.h:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Triangle_3.h:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Tetrahedron_3.h:
 
 /usr/local/include/boost/multi_index/hashed_index.hpp:
 
@@ -7108,11 +7255,17 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/Line_3_Ray_3.h:
 
+/usr/local/include/boost/iterator_adaptors.hpp:
+
+/usr/local/include/CGAL/constructions/kernel_ftC3.h:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Point_3.h:
+
 /usr/local/include/CGAL/Constrained_triangulation_plus_2.h:
 
 /usr/local/include/CGAL/Intersections_3/Line_3_Plane_3.h:
 
-/usr/local/include/CGAL/Intersections_3/Line_3_Line_3.h:
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Sphere_3.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Line_3_Ray_3_do_intersect.h:
 
@@ -7147,6 +7300,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/new:
+
+/usr/local/include/CGAL/Triangulation_2/internal/In_domain.h:
 
 /usr/local/include/CGAL/Intersections_2/Point_2_Point_2.h:
 
@@ -7184,7 +7339,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/plus.hpp:
 
-/usr/local/include/CGAL/Intersections_2/Circle_2_Iso_rectangle_2.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
+
+/usr/local/include/CGAL/IO/VRML.h:
 
 /usr/local/include/CGAL/Distance_2/Segment_2_Segment_2.h:
 
@@ -7195,6 +7352,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /usr/local/include/CGAL/Intersections_2/Circle_2_Circle_2.h:
+
+/usr/local/include/boost/predef/library.h:
+
+/usr/local/include/CGAL/Intersections_2/Bbox_2_Line_2.h:
 
 /usr/local/include/boost/utility/identity_type.hpp:
 
@@ -7210,9 +7371,69 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/IO/io_tags.h:
 
+/usr/local/include/boost/predef/os/bsd/bsdi.h:
+
+/usr/local/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/local/include/CGAL/IO/binary_file_io.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtGui/qpaintdevice.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_set.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/QVBoxLayout:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+
+/usr/local/include/boost/math/special_functions/next.hpp:
+
+/usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h:
+
+/usr/local/include/CGAL/IO/STL.h:
+
+/usr/local/include/CGAL/IO/OI/File_writer_inventor.h:
+
+/usr/local/include/boost/random/variate_generator.hpp:
+
+/usr/local/include/CGAL/IO/OI.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qstring.h:
+
+/usr/local/include/CGAL/IO/OFF/Scanner_OFF.h:
+
+/usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h:
+
+/usr/local/include/boost/config/no_tr1/utility.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
+
+/usr/local/include/CGAL/Intersections_3/Segment_3_Sphere_3.h:
+
+/usr/local/include/CGAL/IO/OFF/File_header_extended_OFF.h:
+
+/usr/local/include/CGAL/Distance_2/Line_2_Line_2.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtGui/QImage:
+
+/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Tetrahedron_3.h:
+
+/usr/local/include/CGAL/IO/OFF.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
+
+/usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h:
+
 /usr/local/include/boost/container/flat_set.hpp:
 
 /usr/local/include/CGAL/IO/Arrangement_2_reader.h:
+
+/usr/local/include/CGAL/IO/3MF/write_3mf.h:
 
 /usr/local/include/boost/functional/hash.hpp:
 
@@ -7225,6 +7446,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip:
 
 /usr/local/include/CGAL/Homogeneous/distance_predicatesH2.h:
+
+/usr/local/include/boost/mpl/aux_/largest_int.hpp:
+
+/usr/local/include/CGAL/basic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/xlocale/__wctype.h:
 
@@ -7242,11 +7467,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Profile_counter.h:
 
+/usr/local/include/boost/predef/os/vms.h:
+
+/usr/local/include/CGAL/Homogeneous/SphereH3.h:
+
 /usr/local/include/CGAL/Triangulation_vertex_base_with_info_2.h:
-
-/usr/local/include/CGAL/Intersections_3/Segment_3_Sphere_3.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/weekday.h:
 
@@ -7274,19 +7499,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/IO/Color.h:
 
-/usr/local/include/boost/predef/compiler/tendra.h:
-
 /usr/local/include/CGAL/Hilbert_sort_middle_d.h:
-
-/usr/local/include/CGAL/Hilbert_sort_3.h:
-
-/usr/local/include/boost/mpl/vector/aux_/empty.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/errno.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/wait.h:
-
-/usr/local/include/CGAL/Intersections_3/Point_3_Ray_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
 
@@ -7314,8 +7527,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Handle_hash_function.h:
 
-/usr/local/include/CGAL/Intersections_3/Ray_3_Triangle_3.h:
-
 /usr/local/include/CGAL/Handle_for.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QCoreApplication:
@@ -7334,13 +7545,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Gps_segment_traits_2.h:
 
-/usr/local/include/boost/predef/platform/windows_store.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
-
 /usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Triangle_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/Segment_3_Segment_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
 
 /usr/local/include/CGAL/Gmpz.h:
 
@@ -7410,6 +7619,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_y_2.h:
 
+/usr/local/include/boost/container/detail/container_rebind.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_seek_set.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qframe.h:
@@ -7439,6 +7650,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/limits.h:
 
 /usr/local/include/boost/fusion/sequence/intrinsic/at.hpp:
+
+/usr/local/include/boost/predef/platform/windows_runtime.h:
+
+/usr/local/include/boost/any/bad_any_cast.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_y_at_x_2.h:
 
@@ -7494,10 +7709,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Distance_3/Point_3_Weighted_point_3.h:
 
-/usr/local/include/boost/multiprecision/detail/generic_interconvert.hpp:
-
-/usr/local/include/boost/predef/os/unix.h:
-
 /usr/local/include/CGAL/Distance_3/Point_3_Tetrahedron_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
@@ -7550,6 +7761,24 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Distance_2/Point_2_Segment_2.h:
 
+/usr/local/include/CGAL/Convex_hull_2/convexity_check_2_impl.h:
+
+/usr/local/include/CGAL/Boolean_set_operations_2/Curve_with_halfedge.h:
+
+/usr/local/include/CGAL/Cartesian/Circle_3.h:
+
+/usr/local/include/boost/mpl/list.hpp:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_selected_extreme_points_2_impl.h:
+
+/usr/local/include/boost/fusion/mpl/push_front.hpp:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
+
+/usr/local/include/CGAL/Container_helper.h:
+
 /usr/local/include/boost/variant/detail/apply_visitor_delayed.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/tuple_like.h:
@@ -7575,8 +7804,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
 /usr/local/include/CGAL/Constrained_Delaunay_triangulation_2.h:
-
-/usr/local/include/CGAL/Intersections_3/Sphere_3_Sphere_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h:
 
@@ -7608,10 +7835,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512vlfp16intrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/tuple:
-
-/usr/local/include/boost/predef/language/stdcpp.h:
-
 /usr/local/include/CGAL/Cartesian/point_constructions_3.h:
 
 /usr/local/include/CGAL/Cartesian/point_constructions_2.h:
@@ -7624,21 +7847,23 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Cartesian/function_objects.h:
 
+/usr/local/include/CGAL/Intersections_3/Ray_3_Ray_3.h:
+
+/usr/local/include/boost/multi_index/detail/safe_mode.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_uuid_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/types.h:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qbasicatomic.h:
 
 /usr/local/include/CGAL/Cartesian/Triangle_3.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QEvent:
 
-/usr/local/include/CGAL/Cartesian/Translation_rep_3.h:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QVariant:
 
 /usr/local/include/CGAL/Cartesian/Tetrahedron_3.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__wmmintrin_aes.h:
-
-/usr/local/include/CGAL/Intersections_3/Sphere_3_Triangle_3.h:
 
 /usr/local/include/CGAL/Dimension.h:
 
@@ -7694,18 +7919,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/container_hash/is_unordered_range.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
-
-/usr/local/include/boost/predef/architecture/ppc.h:
-
-/usr/local/include/CGAL/Intersections_3/Bbox_3_Bbox_3.h:
-
-/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qregularexpression.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
-
-/usr/local/include/CGAL/Intersections_3/Point_3_Triangle_3.h:
-
 /usr/local/include/boost/predef/other.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qvector4d.h:
@@ -7729,10 +7942,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/move/adl_move_swap.hpp:
 
 /usr/local/include/CGAL/Boolean_set_operations_2/complement.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qdir.h:
 
@@ -7763,6 +7972,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Side_of_oriented_circle_2.h:
 
 /usr/local/include/boost/fusion/view/single_view/detail/prior_impl.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
+
+/usr/local/include/CGAL/Surface_mesh/IO/3MF.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
@@ -7815,6 +8030,14 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/boost/intrusive/options.hpp:
 
 /usr/local/include/CGAL/Arrangement_2/Arrangement_on_surface_2_global.h:
+
+/usr/local/include/boost/predef/language/cuda.h:
+
+/usr/local/include/CGAL/Boolean_set_operations_2/Gps_polygon_validation.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qlist.h:
+
+/usr/local/include/CGAL/Intersections_3/Bbox_3_Plane_3.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qbasictimer.h:
 
@@ -7898,15 +8121,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Arr_polyline_traits_2.h:
 
-/usr/local/include/boost/move/detail/iterator_traits.hpp:
-
-/usr/local/include/CGAL/Cartesian/solve_3.h:
-
-/usr/local/include/CGAL/Intersections_3/Sphere_3_Tetrahedron_3.h:
-
 /usr/local/include/CGAL/Hilbert_sort_median_d.h:
 
-/usr/local/include/boost/predef/hardware/simd/x86/versions.h:
+/usr/local/include/CGAL/IO/VTK/VTK_writer.h:
 
 /usr/local/include/boost/type_traits/detail/mp_defer.hpp:
 
@@ -7990,6 +8207,14 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Arr_consolidated_curve_data_traits_2.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree:
+
+/usr/local/include/CGAL/disable_warnings.h:
+
+/usr/local/include/CGAL/Cache.h:
+
+/usr/local/include/CGAL/IO/Generic_writer.h:
+
 /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h:
 
 /usr/local/include/boost/iterator/reverse_iterator.hpp:
@@ -8016,13 +8241,13 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/transforming_iterator.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
-
 /usr/local/include/boost/preprocessor/control/iif.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_partial_sort.h:
 
 /usr/local/include/CGAL/Intersections_3/Triangle_3_Triangle_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
 /usr/local/include/boost/fusion/support/config.hpp:
 
@@ -8086,6 +8311,10 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_blksize_t.h:
 
+/usr/local/include/boost/predef/library/std/modena.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stddef.h:
+
 /usr/local/include/CGAL/Arr_topology_traits/Arr_unb_planar_construction_helper.h:
 
 /usr/local/include/CGAL/IO/Arr_iostream.h:
@@ -8112,6 +8341,12 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/fusion/view/joint_view/detail/deref_impl.hpp:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/equal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_function.h:
+
+/usr/local/include/CGAL/IO/PLY/PLY_writer.h:
+
 /usr/local/include/CGAL/Cartesian/Segment_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_partition_copy.h:
@@ -8119,6 +8354,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Triangle_3_do_intersect.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/QApplication:
+
+/usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Triangle_3_intersection.h:
 
@@ -8182,8 +8419,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qpainter.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtGui/qpaintdevice.h:
-
 /usr/local/include/CGAL/Intersections_3/internal/Segment_3_Segment_3_do_intersect.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Iso_cuboid_3_Plane_3_intersection.h:
@@ -8200,8 +8435,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/enable_if.h:
 
-/usr/local/include/boost/predef/os/ios.h:
-
 /usr/local/include/boost/mpl/equal.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
@@ -8209,8 +8442,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Plane_3.h:
 
 /usr/local/include/CGAL/Filtered_predicate_with_state.h:
-
-/usr/local/include/CGAL/Cache.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qmatrix4x4.h:
 
@@ -8260,8 +8491,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/CGAL/Intersections_3/Bbox_3_Segment_3.h:
 
-/Users/tommycbird/Desktop/Github/ArtPlacement/bops_linear.h:
-
 /usr/local/include/boost/move/algo/adaptive_merge.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_same.h:
@@ -8310,6 +8539,16 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/QOpenGLFramebufferObject:
 
+/usr/local/include/boost/multiprecision/cpp_int/comparison.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/usr/local/include/CGAL/Boolean_set_operations_2/Gps_on_surface_base_2_impl.h:
+
+/usr/local/include/CGAL/IO/helpers.h:
+
+/usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_locale.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/enqcmdintrin.h:
@@ -8338,11 +8577,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/QMouseEvent:
 
-/usr/local/include/CGAL/Distance_2/Line_2_Line_2.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_zero.h:
+/usr/local/include/boost/mpl/not.hpp:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtGui/QImage:
+/usr/local/include/CGAL/Intersections_3/Point_3_Sphere_3.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qvarlengtharray.h:
 
@@ -8353,8 +8592,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /usr/local/include/CGAL/IO/Arrangement_2_writer.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qvariant.h:
-
-/usr/local/include/boost/predef/os/amigaos.h:
 
 /usr/local/include/boost/optional/detail/optional_config.hpp:
 
@@ -8384,8 +8621,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/mpl/aux_/advance_forward.hpp:
 
-/usr/local/include/boost/math/special_functions/next.hpp:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qsize.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qsharedpointer.h:
@@ -8400,13 +8635,19 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qregexp.h:
 
+/usr/local/include/boost/predef/compiler/greenhills.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/pop_heap.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qatomic_cxx11.h:
+
+/usr/local/include/boost/multiprecision/detail/functions/trig.hpp:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qvector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qprocessordetection.h:
-
-/usr/local/include/CGAL/Intersections_3/Line_3_Tetrahedron_3.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qobjectdefs.h:
 
@@ -8420,10 +8661,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qnamespace.h:
 
-/usr/local/include/CGAL/Boolean_set_operations_2/Curve_with_halfedge.h:
-
-/usr/local/include/CGAL/Cartesian/Circle_3.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qline.h:
@@ -8434,6 +8671,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qhashfunctions.h:
 
+/usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h:
+
 /usr/local/include/boost/multiprecision/detail/no_et_ops.hpp:
 
 /usr/local/include/boost/fusion/mpl/pop_front.hpp:
@@ -8441,6 +8680,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qflags.h:
 
 /usr/local/include/boost/preprocessor/repetition/enum.hpp:
+
+/usr/local/include/CGAL/IO/OFF/File_header_OFF.h:
 
 /usr/local/include/boost/fusion/view/iterator_range/detail/at_impl.hpp:
 
@@ -8504,12 +8745,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512bwintrin.h:
 
-/usr/local/include/boost/mp11/integral.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/strong_order.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3_Plane_3.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/lzcntintrin.h:
 
 /usr/local/include/boost/mpl/identity.hpp:
@@ -8552,10 +8787,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 /usr/local/include/boost/config/pragma_message.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/equal.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/unary_function.h:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QScopedPointer:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QDateTime:
@@ -8568,7 +8799,9 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o: /Users/tommycbird/Desktop/Github
 
 ui_ImageInterface.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath:
+/usr/local/include/CGAL/AABB_tree/internal/AABB_search_tree.h:
+
+/usr/local/include/CGAL/IO/OBJ.h:
 
 /usr/local/include/boost/fusion/algorithm/iteration/detail/segmented_fold.hpp:
 
@@ -8583,8 +8816,6 @@ ui_ImageInterface.h:
 /usr/local/include/boost/mpl/aux_/contains_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/wbnoinvdintrin.h:
-
-/usr/local/include/boost/config/no_tr1/utility.hpp:
 
 /usr/local/include/CGAL/is_convertible.h:
 
@@ -8623,6 +8854,10 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/ptwriteintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional:
+
+/usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/pmmintrin.h:
 
@@ -8674,8 +8909,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avxintrin.h:
 
-/usr/local/include/boost/predef/platform/mingw.h:
-
 /usr/local/include/CGAL/Homogeneous/Iso_cuboidH3.h:
 
 /usr/local/include/CGAL/Intersections_3/Ray_3_Segment_3.h:
@@ -8687,6 +8920,8 @@ ui_ImageInterface.h:
 /usr/local/include/boost/mp11/detail/mp_copy_if.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512vnniintrin.h:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsavesintrin.h:
 
@@ -8734,6 +8969,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512bf16intrin.h:
 
+/usr/local/include/CGAL/IO/Tee_for_output_iterator.h:
+
 /usr/local/include/boost/mpl/vector/aux_/vector0.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version:
@@ -8772,11 +9009,19 @@ ui_ImageInterface.h:
 
 /usr/local/include/boost/move/algo/detail/insertion_sort.hpp:
 
+/usr/local/include/CGAL/Kernel_traits.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/unistd.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qlogging.h:
 
 /usr/local/include/CGAL/intersection_2.h:
+
+/usr/local/include/CGAL/Intersections_3/Point_3_Ray_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/wait.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/syslimits.h:
 
@@ -8816,6 +9061,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_u_int16_t.h:
 
+/usr/local/include/CGAL/IO/PLY.h:
+
 /usr/local/include/boost/mpl/begin_end_fwd.hpp:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qcombobox.h:
@@ -8854,11 +9101,15 @@ ui_ImageInterface.h:
 
 /usr/local/include/boost/mpl/lambda.hpp:
 
+/usr/local/include/boost/random/linear_congruential.hpp:
+
+/usr/local/include/CGAL/Surface_mesh/Surface_mesh.h:
+
 /usr/local/include/CGAL/Arr_default_overlay_traits.h:
 
-/usr/local/include/boost/container/container_fwd.hpp:
-
 /usr/local/include/boost/predef/compiler/llvm.h:
+
+/usr/local/include/boost/container/container_fwd.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_rsize_t.h:
 
@@ -8891,10 +9142,6 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_mbstate_t.h:
-
-/usr/local/include/boost/preprocessor/iteration/iterate.hpp:
-
-/usr/local/include/boost/predef/compiler/gcc.h:
 
 /usr/local/include/boost/math/tools/config.hpp:
 
@@ -8938,10 +9185,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/pkuintrin.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
-
-/usr/local/include/boost/predef/library/std/libcomo.h:
-
 /usr/local/include/CGAL/Cartesian/predicates_on_points_3.h:
 
 /usr/local/include/boost/preprocessor/enum_shifted_params.hpp:
@@ -8978,7 +9221,15 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/semiregular.h:
 
+/usr/local/include/boost/predef/os.h:
+
+/usr/local/include/boost/math/tools/precision.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_select.h:
+
+/usr/local/include/CGAL/Qt/quaternion.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/smmintrin.h:
 
 /usr/local/include/boost/type_traits/is_scoped_enum.hpp:
 
@@ -8993,6 +9244,16 @@ ui_ImageInterface.h:
 /usr/local/include/CGAL/Distance_3/Point_3_Ray_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/usr/local/include/CGAL/Intersections_3/Segment_3_Triangle_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/projected.h:
+
+/usr/local/include/CGAL/Intersections_3/Line_3_Sphere_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__node_handle:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
@@ -9100,6 +9361,10 @@ ui_ImageInterface.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qopenglcontext.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_default_constructible.h:
+
+/usr/local/include/boost/graph/properties.hpp:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qtypeinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/libkern/i386/_OSByteOrder.h:
@@ -9122,8 +9387,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/i386/_types.h:
 
-/usr/local/include/CGAL/AABB_tree/internal/AABB_search_tree.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/totally_ordered.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
@@ -9142,6 +9405,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/wchar.h:
 
+/usr/local/include/CGAL/IO/3MF.h:
+
 /usr/local/include/boost/intrusive/detail/iiterator.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
@@ -9152,11 +9417,13 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/typeinfo:
 
-/usr/local/include/boost/predef/os/bsd/dragonfly.h:
-
 /usr/local/include/boost/mpl/aux_/nttp_decl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__format/concepts.h:
+
+/usr/local/include/boost/predef/language/stdcpp.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/tuple:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QString:
 
@@ -9224,9 +9491,11 @@ ui_ImageInterface.h:
 
 /usr/local/include/CGAL/Intersections_2/Segment_2_Triangle_2.h:
 
-/usr/local/include/boost/predef/hardware/simd/arm/versions.h:
-
 /usr/local/include/boost/mp11/detail/mp_count.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Point_3_Triangle_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/for_each_n.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/iota.h:
 
@@ -9244,6 +9513,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/inttypes.h:
 
+/usr/local/include/CGAL/Dynamic_property_map.h:
+
 /usr/local/include/CGAL/Distance_2/Line_2_Triangle_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/regular.h:
@@ -9251,6 +9522,8 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fenv.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/pthread/pthread_impl.h:
+
+/usr/local/include/CGAL/draw_face_graph.h:
 
 /usr/local/include/boost/container/detail/destroyers.hpp:
 
@@ -9286,9 +9559,15 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_off_t.h:
 
+/usr/local/include/boost/predef/compiler/microtec.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+
 /usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath:
 
 /usr/local/include/CGAL/Intersections_2/Iso_rectangle_2_Segment_2.h:
 
@@ -9328,6 +9607,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/limits.h:
 
+/usr/local/include/boost/multiprecision/traits/is_variable_precision.hpp:
+
+/usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qvector2d.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/move.h:
@@ -9360,17 +9643,9 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/forward.h:
 
-/usr/local/include/boost/mpl/list.hpp:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/QHBoxLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/exception_guard.h:
-
-/usr/local/include/boost/fusion/algorithm/iteration/detail/preprocessed/fold.hpp:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Segment_3.h:
 
 /usr/local/include/boost/random/detail/operators.hpp:
 
@@ -9448,13 +9723,11 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+/usr/local/include/boost/variant.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
+/usr/local/include/boost/predef/compiler/palm.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/QVBoxLayout:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h:
 
 /usr/local/include/CGAL/Intersections_3/internal/Point_3_Tetrahedron_3_do_intersect.h:
 
@@ -9467,6 +9740,8 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/lazy.h:
+
+/usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h:
 
 /usr/local/include/boost/container/new_allocator.hpp:
 
@@ -9481,6 +9756,12 @@ ui_ImageInterface.h:
 /usr/local/include/boost/fusion/container/list/nil.hpp:
 
 /usr/local/include/CGAL/Filtered_kernel/internal/Static_filters/Compare_weighted_squared_radius_3.h:
+
+/usr/local/include/boost/predef/library/std.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /usr/local/include/boost/mpl/set/aux_/insert_range_impl.hpp:
 
@@ -9508,6 +9789,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
 
+/usr/local/include/CGAL/convexity_check_2.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
 
 /usr/local/include/boost/fusion/container/list/cons_fwd.hpp:
@@ -9519,6 +9802,10 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avxvnniintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
+
+/usr/local/include/boost/predef/os/unix.h:
+
+/usr/local/include/boost/multiprecision/detail/generic_interconvert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h:
 
@@ -9540,6 +9827,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
+/usr/local/include/CGAL/IO/OI/Inventor_ostream.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/assume_aligned.h:
 
 /usr/local/include/boost/type_traits/has_bit_and.hpp:
@@ -9549,8 +9838,6 @@ ui_ImageInterface.h:
 /usr/local/include/boost/random/binomial_distribution.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
 
@@ -9670,6 +9957,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/ctime:
 
+/usr/local/include/CGAL/Intersections_3/internal/Point_3_Segment_3_intersection.h:
+
+/usr/local/include/CGAL/IO/GOCAD.h:
+
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qopenglfunctions.h:
 
 /usr/local/include/CGAL/Boolean_set_operations_2/Gps_bfs_join_visitor.h:
@@ -9686,6 +9977,8 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
+/usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h:
+
 /usr/local/include/boost/fusion/iterator/detail/segmented_next_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
@@ -9699,8 +9992,6 @@ ui_ImageInterface.h:
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qspinbox.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_move_assignable.h:
-
-/usr/local/include/CGAL/Intersections_3/Line_3_Triangle_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/ctype.h:
 
@@ -9726,6 +10017,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
 
+/usr/local/include/boost/predef/platform/android.h:
+
+/usr/local/include/boost/fusion/view/transform_view/detail/value_of_data_impl.hpp:
+
 /usr/local/include/boost/mpl/set/aux_/value_type_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsaveoptintrin.h:
@@ -9748,6 +10043,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_pointer.h:
 
+/usr/local/include/CGAL/Intersections_3/Plane_3_Tetrahedron_3.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qcompilerdetection.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h:
 
 /usr/local/include/boost/iterator/zip_iterator.hpp:
@@ -9755,8 +10054,6 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qsharedpointer_impl.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Plane_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/pair_like.h:
 
@@ -9786,9 +10083,19 @@ ui_ImageInterface.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qgridlayout.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/enable_view.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_minmax_element.h:
+
+/usr/local/include/boost/predef/architecture/ppc.h:
+
+/usr/local/include/CGAL/Intersections_3/Bbox_3_Bbox_3.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qregularexpression.h:
 
 /usr/local/include/boost/mpl/minus.hpp:
+
+/usr/local/include/boost/predef/compiler/metaware.h:
+
+/usr/local/include/CGAL/minkowski_sum_2.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
 
@@ -9846,9 +10153,11 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/stdio.h:
 
-/usr/local/include/CGAL/Hilbert_sort_median_3.h:
+/usr/local/include/boost/predef/compiler/kai.h:
 
-/usr/local/include/boost/predef/os/irix.h:
+/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
+
+/usr/local/include/CGAL/Hilbert_sort_median_3.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
 
@@ -9882,10 +10191,6 @@ ui_ImageInterface.h:
 
 /usr/local/include/boost/move/algo/detail/merge_sort.hpp:
 
-/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
-
-/usr/local/include/CGAL/Boolean_set_operations_2/Gps_on_surface_base_2_impl.h:
-
 /Users/tommycbird/opt/anaconda3/include/qt/QtGui/qcolor.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__split_buffer:
@@ -9906,17 +10211,27 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/voidify.h:
 
+/usr/local/include/CGAL/Intersections_3/internal/Plane_3_Point_3_intersection.h:
+
+/usr/local/include/CGAL/IO/PLY/PLY_reader.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
 
 /usr/local/include/boost/math/special_functions/polygamma.hpp:
-
-/usr/local/include/CGAL/FPU.h:
 
 /usr/local/include/boost/exception/exception.hpp:
 
 /usr/local/include/CGAL/Intersections_3/internal/Bbox_3_Ray_3_do_intersect.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/unique_ptr.h:
+
+/usr/local/include/boost/integer/integer_log2.hpp:
+
+/usr/local/include/boost/limits.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Tetrahedron_3_Triangle_3.h:
 
 /usr/local/include/boost/mpl/back_inserter.hpp:
 
@@ -9944,6 +10259,12 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_scoped_enum.h:
 
+/usr/local/include/boost/fusion/algorithm/iteration/detail/preprocessed/fold.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
+/usr/local/include/CGAL/Intersections_3/Plane_3_Segment_3.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/set:
 
 /usr/local/include/CGAL/Homogeneous/Iso_rectangleH2.h:
@@ -9956,6 +10277,12 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h:
 
+/usr/local/include/CGAL/Intersections_3/Ray_3_Sphere_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/string.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/allocator.h:
 
 /usr/local/include/boost/random/random_number_generator.hpp:
@@ -9967,8 +10294,6 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_next_permutation.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qslider.h:
-
-/usr/local/include/boost/predef/compiler/iar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
@@ -10004,8 +10329,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/size.h:
 
-/usr/local/include/boost/predef/os/haiku.h:
-
 /usr/local/include/CGAL/use.h:
 
 /usr/local/include/CGAL/Intersections_3/Point_3_Segment_3.h:
@@ -10017,8 +10340,6 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/malloc/_malloc_type.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Triangle_3.h:
 
 /usr/local/include/boost/preprocessor/enum.hpp:
 
@@ -10034,10 +10355,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/prev.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/ordering.h:
@@ -10045,6 +10362,8 @@ ui_ImageInterface.h:
 /usr/local/include/boost/type_traits/has_trivial_assign.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/usr/local/include/CGAL/Convex_hull_2/ch_graham_andrew_impl.h:
 
 /usr/local/include/boost/graph/graph_traits.hpp:
 
@@ -10218,13 +10537,15 @@ ui_ImageInterface.h:
 
 /usr/local/include/boost/fusion/adapted/mpl/detail/end_impl.hpp:
 
+/usr/local/include/boost/multiprecision/cpp_int/bitwise.hpp:
+
+/usr/local/include/CGAL/Intersections_3/Plane_3_Point_3.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/mm_malloc.h:
+
 /usr/local/include/boost/math/policies/policy.hpp:
 
-/usr/local/include/boost/predef/hardware/simd/arm.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdlib.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/avx512vbmivlintrin.h:
 
@@ -10246,6 +10567,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h:
 
+/usr/local/include/boost/mpl/vector/aux_/empty.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/errno.h:
+
 /usr/local/include/boost/fusion/view/transform_view/detail/at_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h:
@@ -10263,6 +10588,10 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
 
 /usr/local/include/CGAL/Arrangement_2.h:
+
+/usr/local/include/boost/predef/library/std/msl.h:
+
+/usr/local/include/CGAL/boost/graph/IO/VTK.h:
 
 /usr/local/include/CGAL/Surface_sweep_2.h:
 
@@ -10320,6 +10649,10 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/Availability.h:
 
+/usr/local/include/boost/predef/library/std/libcomo.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
+
 /usr/local/include/boost/fusion/algorithm/transformation/pop_back.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream:
@@ -10329,8 +10662,6 @@ ui_ImageInterface.h:
 /Users/tommycbird/opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
-
-/usr/local/include/boost/predef/library/c/gnu.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
 
@@ -10348,23 +10679,11 @@ ui_ImageInterface.h:
 
 /usr/local/include/CGAL/Intersections_2/Circle_2_Segment_2.h:
 
-/Users/tommycbird/opt/anaconda3/include/qt/QtCore/qstring.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
-
 /usr/local/include/CGAL/Arr_non_caching_segment_traits_2.h:
 
 /usr/local/include/boost/fusion/view/transform_view/detail/deref_impl.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl3.h:
-
-/usr/local/include/boost/random/fisher_f_distribution.hpp:
-
-/usr/local/include/boost/mpl/aux_/pop_back_impl.hpp:
-
-/usr/local/include/CGAL/Polygon_2/Polygon_2_algorithms_impl.h:
-
-/usr/local/include/CGAL/Intersections_3/Segment_3_Tetrahedron_3.h:
 
 /usr/local/include/CGAL/Iterator_range.h:
 
@@ -10401,6 +10720,10 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/is_eq.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_ctype.h:
+
+/usr/local/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/local/include/CGAL/IO/OFF/File_writer_OFF.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/bit_ceil.h:
 
@@ -10443,6 +10766,10 @@ ui_ImageInterface.h:
 /usr/local/include/CGAL/Arrangement_2/Arrangement_on_surface_2_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
+
+/usr/local/include/boost/predef/library/c/zos.h:
+
+/usr/local/include/boost/fusion/algorithm/query/detail/find_if.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__chrono/time_point.h:
 
@@ -10518,13 +10845,9 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/bit_cast.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
-
 /usr/local/include/boost/move/detail/to_raw_pointer.hpp:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QtAlgorithms:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fd_set.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h:
 
@@ -10544,9 +10867,9 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_stable_partition.h:
 
-/usr/local/include/boost/predef/detail/os_detected.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
+
+/Users/tommycbird/opt/anaconda3/include/qt/QtGui/qpaintengine.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h:
 
@@ -10559,8 +10882,6 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit_reference:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h:
-
-/usr/local/include/boost/predef/library/std/stdcpp3.h:
 
 /usr/local/include/boost/mpl/aux_/template_arity.hpp:
 
@@ -10583,8 +10904,6 @@ ui_ImageInterface.h:
 /usr/local/include/boost/move/move.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/sift_down.h:
-
-/usr/local/include/CGAL/Intersections_3/Plane_3_Sphere_3.h:
 
 /usr/local/include/boost/math/cstdfloat/cstdfloat_complex.hpp:
 
@@ -10658,6 +10977,8 @@ ui_ImageInterface.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qmargins.h:
 
+/usr/local/include/CGAL/license/Surface_mesh.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/includes.h:
 
 /usr/local/include/boost/optional/detail/optional_hash.hpp:
@@ -10666,13 +10987,11 @@ ui_ImageInterface.h:
 
 /usr/local/include/CGAL/Boolean_set_operations_2.h:
 
+/usr/local/include/CGAL/Intersections_3/Line_3_Line_3.h:
+
 /usr/local/include/CGAL/Random.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_min_element.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tuple_dir/tuple_like_ext.h:
-
-/usr/local/include/CGAL/Intersections_3/Point_3_Point_3.h:
 
 /usr/local/include/boost/integer/static_log2.hpp:
 
@@ -10686,8 +11005,6 @@ ui_ImageInterface.h:
 
 /usr/local/include/CGAL/tuple.h:
 
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Sphere_3.h:
-
 /usr/local/include/boost/unordered/detail/map.hpp:
 
 /usr/local/include/boost/fusion/support/void.hpp:
@@ -10697,6 +11014,8 @@ ui_ImageInterface.h:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/__stddef_max_align_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
+
+/usr/local/include/CGAL/ch_bykat.h:
 
 /usr/local/include/boost/predef/architecture/sparc.h:
 
@@ -10762,10 +11081,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
 
-/usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
-
-/usr/local/include/boost/predef/library/std/roguewave.h:
-
 /usr/local/include/boost/multiprecision/detail/digits.hpp:
 
 /usr/local/include/boost/mpl/aux_/config/gpu.hpp:
@@ -10814,17 +11129,7 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/make_heap.h:
 
-/usr/local/include/boost/predef/compiler/hp_acc.h:
-
-/usr/local/include/boost/iterator_adaptors.hpp:
-
-/usr/local/include/CGAL/constructions/kernel_ftC3.h:
-
-/usr/local/include/CGAL/Intersections_3/Line_3_Point_3.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/extent.h:
-
-/usr/local/include/boost/predef/library/std/msl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/_types/_wctype_t.h:
 
@@ -10833,6 +11138,10 @@ ui_ImageInterface.h:
 /usr/local/include/CGAL/Arr_geometry_traits/Segment_assertions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/min_element.h:
+
+/usr/local/include/CGAL/Triangulation_ds_circulators_2.h:
+
+/usr/local/include/CGAL/Intersections_3/internal/Sphere_3_Sphere_3_intersection.h:
 
 /usr/local/include/CGAL/Triangulation_ds_vertex_base_2.h:
 
@@ -10864,8 +11173,6 @@ ui_ImageInterface.h:
 
 /Users/tommycbird/opt/anaconda3/include/qt/QtCore/qcontiguouscache.h:
 
-/usr/local/include/boost/predef/compiler/pgi.h:
-
 /usr/local/include/boost/container_hash/detail/hash_range.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/any_of.h:
@@ -10873,8 +11180,6 @@ ui_ImageInterface.h:
 /usr/local/include/boost/lexical_cast/try_lexical_convert.hpp:
 
 /usr/local/include/boost/fusion/view/transform_view/transform_view_fwd.hpp:
-
-/Users/tommycbird/opt/anaconda3/include/qt/QtGui/qpaintengine.h:
 
 /usr/local/include/boost/predef/architecture/riscv.h:
 
@@ -10889,8 +11194,6 @@ ui_ImageInterface.h:
 /usr/local/include/boost/assert/source_location.hpp:
 
 /usr/local/include/CGAL/Arr_topology_traits/Arr_bounded_planar_topology_traits_2_impl.h:
-
-/usr/local/include/boost/predef/detail/test.h:
 
 /usr/local/include/CGAL/Minkowski_sum_2/Arr_labeled_traits_2.h:
 
@@ -10950,12 +11253,6 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
 
-/usr/local/include/boost/multi_index/member.hpp:
-
-/usr/local/include/CGAL/Intersection_traits_3.h:
-
-/usr/local/include/CGAL/Intersections_3/Iso_cuboid_3_Tetrahedron_3.h:
-
 /usr/local/include/CGAL/Get_arithmetic_kernel.h:
 
 /usr/local/include/boost/mpl/vector/aux_/begin_end.hpp:
@@ -10971,8 +11268,6 @@ ui_ImageInterface.h:
 /usr/local/include/CGAL/Boolean_set_operations_2/Gps_base_functor.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/vaesintrin.h:
-
-/usr/local/include/boost/predef/platform/ios.h:
 
 /usr/local/include/CGAL/Distance_3/Line_3_Plane_3.h:
 
@@ -11018,9 +11313,9 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/TargetConditionals.h:
+/usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h:
 
-/usr/local/include/boost/predef/language/stdc.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/TargetConditionals.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
 
@@ -11030,9 +11325,17 @@ ui_ImageInterface.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
+/usr/local/include/boost/predef/library/std/_prefix.h:
+
+/usr/local/include/boost/mpl/equal_to.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/AvailabilityInternalLegacy.h:
+
+/usr/local/include/boost/multi_index/member.hpp:
+
+/usr/local/include/CGAL/Intersection_traits_3.h:
 
 /usr/local/include/boost/type_traits/has_modulus.hpp:
 

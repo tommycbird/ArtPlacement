@@ -951,7 +951,6 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsaveoptintrin.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xsavesintrin.h
  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/xtestintrin.h
- /Users/tommycbird/Desktop/Github/ArtPlacement/bops_linear.h
  /Users/tommycbird/Desktop/Github/ArtPlacement/build/ui_ImageInterface.h
  /Users/tommycbird/Desktop/Github/ArtPlacement/pgn_print.h
  /Users/tommycbird/opt/anaconda3/include/qt/QtCore/QCoreApplication
@@ -1349,7 +1348,13 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Constrained_triangulation_2.h
  /usr/local/include/CGAL/Constrained_triangulation_face_base_2.h
  /usr/local/include/CGAL/Constrained_triangulation_plus_2.h
+ /usr/local/include/CGAL/Container_helper.h
  /usr/local/include/CGAL/Converting_construction.h
+ /usr/local/include/CGAL/Convex_hull_2/ch_akl_toussaint_impl.h
+ /usr/local/include/CGAL/Convex_hull_2/ch_bykat_impl.h
+ /usr/local/include/CGAL/Convex_hull_2/ch_graham_andrew_impl.h
+ /usr/local/include/CGAL/Convex_hull_2/ch_selected_extreme_points_2_impl.h
+ /usr/local/include/CGAL/Convex_hull_2/convexity_check_2_impl.h
  /usr/local/include/CGAL/Default.h
  /usr/local/include/CGAL/Dimension.h
  /usr/local/include/CGAL/Direction_2.h
@@ -1392,6 +1397,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Distance_3/Weighted_point_3_Weighted_point_3.h
  /usr/local/include/CGAL/Distance_3/internal/squared_distance_utils_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
+ /usr/local/include/CGAL/Dynamic_property_map.h
  /usr/local/include/CGAL/Enum_converter.h
  /usr/local/include/CGAL/Epic_converter.h
  /usr/local/include/CGAL/Euclidean_distance.h
@@ -1495,11 +1501,46 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Homogeneous/predicates_on_pointsH2.h
  /usr/local/include/CGAL/Homogeneous/predicates_on_pointsH3.h
  /usr/local/include/CGAL/Homogeneous_converter.h
+ /usr/local/include/CGAL/IO/3MF.h
+ /usr/local/include/CGAL/IO/3MF/read_3mf.h
+ /usr/local/include/CGAL/IO/3MF/write_3mf.h
  /usr/local/include/CGAL/IO/Arr_iostream.h
  /usr/local/include/CGAL/IO/Arr_text_formatter.h
  /usr/local/include/CGAL/IO/Arrangement_2_reader.h
  /usr/local/include/CGAL/IO/Arrangement_2_writer.h
  /usr/local/include/CGAL/IO/Color.h
+ /usr/local/include/CGAL/IO/GOCAD.h
+ /usr/local/include/CGAL/IO/Generic_writer.h
+ /usr/local/include/CGAL/IO/OBJ.h
+ /usr/local/include/CGAL/IO/OBJ/File_writer_wavefront.h
+ /usr/local/include/CGAL/IO/OFF.h
+ /usr/local/include/CGAL/IO/OFF/File_header_OFF.h
+ /usr/local/include/CGAL/IO/OFF/File_header_OFF_impl.h
+ /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF.h
+ /usr/local/include/CGAL/IO/OFF/File_header_extended_OFF_impl.h
+ /usr/local/include/CGAL/IO/OFF/File_scanner_OFF.h
+ /usr/local/include/CGAL/IO/OFF/File_writer_OFF.h
+ /usr/local/include/CGAL/IO/OFF/Scanner_OFF.h
+ /usr/local/include/CGAL/IO/OFF/generic_copy_OFF.h
+ /usr/local/include/CGAL/IO/OI.h
+ /usr/local/include/CGAL/IO/OI/File_writer_inventor.h
+ /usr/local/include/CGAL/IO/OI/Inventor_ostream.h
+ /usr/local/include/CGAL/IO/PLY.h
+ /usr/local/include/CGAL/IO/PLY/PLY_reader.h
+ /usr/local/include/CGAL/IO/PLY/PLY_writer.h
+ /usr/local/include/CGAL/IO/STL.h
+ /usr/local/include/CGAL/IO/STL/STL_reader.h
+ /usr/local/include/CGAL/IO/Tee_for_output_iterator.h
+ /usr/local/include/CGAL/IO/VRML.h
+ /usr/local/include/CGAL/IO/VRML/File_writer_VRML_2.h
+ /usr/local/include/CGAL/IO/VRML/VRML_1_ostream.h
+ /usr/local/include/CGAL/IO/VRML/VRML_2_ostream.h
+ /usr/local/include/CGAL/IO/VTK.h
+ /usr/local/include/CGAL/IO/VTK/VTK_reader.h
+ /usr/local/include/CGAL/IO/VTK/VTK_writer.h
+ /usr/local/include/CGAL/IO/Verbose_ostream.h
+ /usr/local/include/CGAL/IO/binary_file_io.h
+ /usr/local/include/CGAL/IO/helpers.h
  /usr/local/include/CGAL/IO/io.h
  /usr/local/include/CGAL/IO/io_tags.h
  /usr/local/include/CGAL/In_place_list.h
@@ -1759,6 +1800,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Multiset.h
  /usr/local/include/CGAL/NT_converter.h
  /usr/local/include/CGAL/N_step_adaptor_derived.h
+ /usr/local/include/CGAL/Named_function_parameters.h
  /usr/local/include/CGAL/Needs_parens_as_product.h
  /usr/local/include/CGAL/No_intersection_surface_sweep_2.h
  /usr/local/include/CGAL/Number_types/internal/Exact_type_selector.h
@@ -1821,7 +1863,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
+ /usr/local/include/CGAL/STL_Extension/internal/Has_features.h
  /usr/local/include/CGAL/STL_Extension/internal/info_check.h
+ /usr/local/include/CGAL/STL_Extension/internal/mesh_option_classes.h
+ /usr/local/include/CGAL/STL_Extension/internal/mesh_parameters_interface.h
+ /usr/local/include/CGAL/STL_Extension/internal/parameters_interface.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Search_traits_3.h
  /usr/local/include/CGAL/Segment_2.h
@@ -1855,6 +1901,14 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Sqrt_extension/io.h
  /usr/local/include/CGAL/Sqrt_extension_fwd.h
  /usr/local/include/CGAL/Static_filtered_predicate.h
+ /usr/local/include/CGAL/Surface_mesh.h
+ /usr/local/include/CGAL/Surface_mesh/IO.h
+ /usr/local/include/CGAL/Surface_mesh/IO/3MF.h
+ /usr/local/include/CGAL/Surface_mesh/IO/OFF.h
+ /usr/local/include/CGAL/Surface_mesh/IO/PLY.h
+ /usr/local/include/CGAL/Surface_mesh/Properties.h
+ /usr/local/include/CGAL/Surface_mesh/Surface_mesh.h
+ /usr/local/include/CGAL/Surface_mesh/Surface_mesh_fwd.h
  /usr/local/include/CGAL/Surface_sweep_2.h
  /usr/local/include/CGAL/Surface_sweep_2/Arr_basic_insertion_traits_2.h
  /usr/local/include/CGAL/Surface_sweep_2/Arr_construction_event.h
@@ -1892,6 +1946,7 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/Triangulation_2.h
  /usr/local/include/CGAL/Triangulation_2/insert_constraints.h
  /usr/local/include/CGAL/Triangulation_2/internal/CTP2_subconstraint_graph.h
+ /usr/local/include/CGAL/Triangulation_2/internal/In_domain.h
  /usr/local/include/CGAL/Triangulation_2/internal/Polyline_constraint_hierarchy_2.h
  /usr/local/include/CGAL/Triangulation_2/internal/Triangulation_line_face_circulator_2.h
  /usr/local/include/CGAL/Triangulation_data_structure_2.h
@@ -1923,12 +1978,43 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/auto_link/auto_link.h
  /usr/local/include/CGAL/basic.h
  /usr/local/include/CGAL/basic_classes.h
+ /usr/local/include/CGAL/boost/graph/Euler_operations.h
+ /usr/local/include/CGAL/boost/graph/IO/3MF.h
+ /usr/local/include/CGAL/boost/graph/IO/GOCAD.h
+ /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_builder.h
+ /usr/local/include/CGAL/boost/graph/IO/Generic_facegraph_printer.h
+ /usr/local/include/CGAL/boost/graph/IO/INP.h
+ /usr/local/include/CGAL/boost/graph/IO/OBJ.h
+ /usr/local/include/CGAL/boost/graph/IO/OFF.h
+ /usr/local/include/CGAL/boost/graph/IO/PLY.h
+ /usr/local/include/CGAL/boost/graph/IO/STL.h
+ /usr/local/include/CGAL/boost/graph/IO/VTK.h
+ /usr/local/include/CGAL/boost/graph/IO/WRL.h
+ /usr/local/include/CGAL/boost/graph/IO/polygon_mesh_io.h
+ /usr/local/include/CGAL/boost/graph/copy_face_graph.h
+ /usr/local/include/CGAL/boost/graph/generators.h
+ /usr/local/include/CGAL/boost/graph/graph_traits_Surface_mesh.h
+ /usr/local/include/CGAL/boost/graph/helpers.h
+ /usr/local/include/CGAL/boost/graph/internal/Has_member_clear.h
  /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_TDS_helper.h
  /usr/local/include/CGAL/boost/graph/internal/graph_traits_2D_triangulation_helper.h
+ /usr/local/include/CGAL/boost/graph/internal/helpers.h
+ /usr/local/include/CGAL/boost/graph/internal/initialized_index_maps_helpers.h
+ /usr/local/include/CGAL/boost/graph/io.h
+ /usr/local/include/CGAL/boost/graph/iterator.h
+ /usr/local/include/CGAL/boost/graph/named_params_helper.h
+ /usr/local/include/CGAL/boost/graph/properties.h
+ /usr/local/include/CGAL/boost/graph/properties_Surface_mesh.h
+ /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_features.h
+ /usr/local/include/CGAL/boost/graph/properties_Surface_mesh_time_stamp.h
  /usr/local/include/CGAL/boost/graph/split_graph_into_polylines.h
  /usr/local/include/CGAL/boost/iterator/counting_iterator.hpp
  /usr/local/include/CGAL/boost/iterator/transform_iterator.hpp
  /usr/local/include/CGAL/boost_mp.h
+ /usr/local/include/CGAL/ch_akl_toussaint.h
+ /usr/local/include/CGAL/ch_bykat.h
+ /usr/local/include/CGAL/ch_graham_andrew.h
+ /usr/local/include/CGAL/ch_selected_extreme_points_2.h
  /usr/local/include/CGAL/circulator.h
  /usr/local/include/CGAL/circulator_bases.h
  /usr/local/include/CGAL/config.h
@@ -1936,12 +2022,20 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/constructions/kernel_ftC2.h
  /usr/local/include/CGAL/constructions/kernel_ftC3.h
  /usr/local/include/CGAL/convert_to_bfi.h
+ /usr/local/include/CGAL/convex_hull_2.h
+ /usr/local/include/CGAL/convex_hull_traits_2.h
+ /usr/local/include/CGAL/convexity_check_2.h
  /usr/local/include/CGAL/cpp_float.h
  /usr/local/include/CGAL/determinant.h
  /usr/local/include/CGAL/disable_warnings.h
+ /usr/local/include/CGAL/distance_predicates_2.h
  /usr/local/include/CGAL/double.h
+ /usr/local/include/CGAL/draw_constrained_triangulation_2.h
+ /usr/local/include/CGAL/draw_face_graph.h
  /usr/local/include/CGAL/draw_polygon_2.h
  /usr/local/include/CGAL/draw_polygon_with_holes_2.h
+ /usr/local/include/CGAL/draw_surface_mesh.h
+ /usr/local/include/CGAL/draw_triangulation_2.h
  /usr/local/include/CGAL/enable_warnings.h
  /usr/local/include/CGAL/enum.h
  /usr/local/include/CGAL/exceptions.h
@@ -1970,15 +2064,18 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/CGAL/license/AABB_tree.h
  /usr/local/include/CGAL/license/Arrangement_on_surface_2.h
  /usr/local/include/CGAL/license/Boolean_set_operations_2.h
+ /usr/local/include/CGAL/license/Convex_hull_2.h
  /usr/local/include/CGAL/license/GraphicsView.h
  /usr/local/include/CGAL/license/Minkowski_sum_2.h
  /usr/local/include/CGAL/license/Spatial_searching.h
+ /usr/local/include/CGAL/license/Surface_mesh.h
  /usr/local/include/CGAL/license/Surface_sweep_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
  /usr/local/include/CGAL/long_double.h
  /usr/local/include/CGAL/long_long.h
+ /usr/local/include/CGAL/mark_domain_in_triangulation.h
  /usr/local/include/CGAL/memory.h
  /usr/local/include/CGAL/min_max_n.h
  /usr/local/include/CGAL/minkowski_sum_2.h
@@ -2062,6 +2159,8 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/boost/container/detail/config_begin.hpp
  /usr/local/include/boost/container/detail/config_end.hpp
  /usr/local/include/boost/container/detail/construct_in_place.hpp
+ /usr/local/include/boost/container/detail/container_or_allocator_rebind.hpp
+ /usr/local/include/boost/container/detail/container_rebind.hpp
  /usr/local/include/boost/container/detail/copy_move_algo.hpp
  /usr/local/include/boost/container/detail/destroyers.hpp
  /usr/local/include/boost/container/detail/flat_tree.hpp
@@ -2083,9 +2182,11 @@ CMakeFiles/artplacement.dir/artplacement.cpp.o
  /usr/local/include/boost/container/detail/variadic_templates_tools.hpp
  /usr/local/include/boost/container/detail/version_type.hpp
  /usr/local/include/boost/container/detail/workaround.hpp
+ /usr/local/include/boost/container/flat_map.hpp
  /usr/local/include/boost/container/flat_set.hpp
  /usr/local/include/boost/container/new_allocator.hpp
  /usr/local/include/boost/container/options.hpp
+ /usr/local/include/boost/container/small_vector.hpp
  /usr/local/include/boost/container/throw_exception.hpp
  /usr/local/include/boost/container/vector.hpp
  /usr/local/include/boost/container_hash/detail/hash_mix.hpp
